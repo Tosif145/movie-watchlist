@@ -1,0 +1,203 @@
+.movie-details .movie-card {
+    margin-left: 20%;
+    font: 14px/22px "Lato", Arial, sans-serif;
+    color: #A9A8A3;
+    padding: 40px 0;
+  }
+  
+  .movie-details .container {
+    margin: 0 auto;
+    width: 780px;
+    background: #F0F0ED;
+    border-radius: 5px;
+    position: relative;
+  }
+  
+  .movie-details .hero {
+    height: 342px;
+    margin: 0;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  
+  .movie-details .hero:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    background: red;
+    z-index: -1;
+    transform: skewY(-2.2deg);
+    transform-origin: 0 0;
+  }
+  
+  .movie-details .cover {
+    position: absolute;
+    top: 160px;
+    left: 40px;
+    z-index: 2;
+  }
+  
+  .movie-details .details {
+    padding: 190px 0 0 280px;
+  }
+  
+  .movie-details .details .title1 {
+    color: white;
+    font-size: 44px;
+    margin-bottom: 13px;
+    position: relative;
+  }
+  
+  .movie-details .details .title1 span {
+    position: absolute;
+    top: 3px;
+    margin-left: 12px;
+    background: #C4AF3D;
+    border-radius: 5px;
+    color: #544C21;
+    font-size: 14px;
+    padding: 0px 4px;
+  }
+  
+  .movie-details .details .title2 {
+    color: #C7C1BA;
+    font-size: 23px;
+    font-weight: 300;
+    margin-bottom: 15px;
+  }
+  
+  .movie-details .details .likes {
+    margin-left: 24px;
+  }
+  
+  .movie-details .details .likes:before {
+    position: relative;
+    top: 2px;
+    padding-right: 7px;
+  }
+  
+  .movie-details .description {
+    height: auto;
+    font-size: 16px;
+    line-height: 26px;
+    color: #B1B0AC;
+    overflow: auto;
+  }
+  
+  .movie-details .column1 {
+    padding-left: 50px;
+    padding-top: 120px;
+    width: 220px;
+    float: left;
+    text-align: center;
+  }
+  
+  .movie-details .tag {
+    background: white;
+    border-radius: 10px;
+    padding: 3px 8px;
+    font-size: 14px;
+    margin-right: 4px;
+    line-height: 35px;
+    cursor: pointer;
+  }
+  
+  .movie-details .tag:hover {
+    background: #ddd;
+  }
+  
+  .movie-details .column2 {
+    
+    padding-left: 41px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    width: 600px;
+    float: left;
+  }
+
+  .column2 h2{
+    color: #296b8c; 
+  }
+  
+  .movie-details fieldset,
+  .movie-details label {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /****** Style Star Rating Widget *****/
+  .movie-details .rating {
+    color: white;
+    border: none;
+    float: left;
+  }
+  
+  .movie-details .rating-like {
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+  
+  /* BUTTONS */
+  .buttons-detail{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    margin-right: 20px;
+  }
+
+  .back{
+    font-weight: bold;
+    color: black;
+    border-radius: 2rem;
+    cursor: pointer;
+    width: 95.02px;
+    height: 42.66px;
+    border: none;
+    background-color: #F0F0F0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  
+
+  .inner-btn {
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  .inner-btn .btn {
+    color: #090909;
+    padding: 0.7em 1.7em;
+    font-size: 18px;
+    border-radius: 0.5em;
+    background-color: #64666c;
+    cursor: pointer;
+    border: 1px solid #e8e8e8;
+    transition: all 0.3s;
+    box-shadow: none;
+  }
+  
+  .inner-btn .btn:hover {
+    border: 1px solid white;
+  }
+  
+  .inner-btn .btn:active {
+    box-shadow: 4px 4px 12px #c5c5c5, -4px -4px 12px #ffffff;
+  }
+  
