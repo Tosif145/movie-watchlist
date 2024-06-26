@@ -19,6 +19,8 @@ exports.addMovie = async (req, res) => {
     description: req.body.description,
     releaseYear: req.body.releaseYear,
     genre: req.body.genre,
+    rating: req.body.rating,
+    review: req.body.review,
   });
 
   try {
