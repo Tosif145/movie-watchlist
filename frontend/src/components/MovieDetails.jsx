@@ -93,6 +93,15 @@ const MovieDetails = () => {
               </p>
             </div>
           </div>
+          <div className="description">
+
+            <div className="column2">
+              <h2>Review : </h2>
+              <p>
+                {movie.review}
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>

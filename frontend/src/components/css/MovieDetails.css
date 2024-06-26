@@ -125,6 +125,10 @@
   .column2 h2{
     color: #296b8c; 
   }
+
+  .column2 p{
+    color: #4b95ba; 
+  }
   
   .movie-details fieldset,
   .movie-details label {
