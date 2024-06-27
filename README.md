@@ -111,3 +111,8 @@ npm run dev
 - **Movie details display:**
 
   ![Movie details display](screenshots/MovieDetails.png)
+
+
+## End points:
+   * These are the end point collection with request methods to test the backend. (You can use Thunder client in vs coode or Postman API )
+   [Collection](./thunder-collection_movie-watchlist.json)

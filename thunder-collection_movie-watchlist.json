@@ -1,0 +1,110 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "movie-watchlist",
+    "collectionId": "07aea1b3-40d7-4899-a073-6d373b95eca2",
+    "dateExported": "2024-06-27T06:02:13.113Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "7049623b-5308-4b92-a8bf-c8b5ef890411",
+            "colId": "07aea1b3-40d7-4899-a073-6d373b95eca2",
+            "containerId": "",
+            "name": "add movie",
+            "url": "http://localhost:5000/api/movies/addMovie",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-06-25T04:17:16.327Z",
+            "modified": "2024-06-26T06:44:19.638Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"title\":\"spiderman 3\",\n    \"description\":\"Now spider man can't fly.\",\n    \"releaseYear\":2017,\n    \"genre\":\"Fantasy\"\n  }",
+                "form": []
+            }
+        },
+        {
+            "_id": "4ef2cd46-3fd2-4df2-bce1-45bfc02be99b",
+            "colId": "07aea1b3-40d7-4899-a073-6d373b95eca2",
+            "containerId": "",
+            "name": "get movie by Id",
+            "url": "http://localhost:5000/api/movies/details/667b8a177756f6c22fdc8b97",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-06-25T04:40:57.655Z",
+            "modified": "2024-06-26T10:24:39.246Z",
+            "headers": []
+        },
+        {
+            "_id": "3fd42821-7737-4a91-8510-2f1120f2c06b",
+            "colId": "07aea1b3-40d7-4899-a073-6d373b95eca2",
+            "containerId": "",
+            "name": "get movies ",
+            "url": "http://localhost:5000/api/movies",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-06-25T04:41:28.895Z",
+            "modified": "2024-06-25T04:41:35.787Z",
+            "headers": []
+        },
+        {
+            "_id": "56f57e60-dddd-4c45-bed6-4d0b851aadf6",
+            "colId": "07aea1b3-40d7-4899-a073-6d373b95eca2",
+            "containerId": "",
+            "name": "update movie",
+            "url": "http://localhost:5000/api/movies/667a48dfa761a00e09296bb0/rate",
+            "method": "PUT",
+            "sortNum": 50000,
+            "created": "2024-06-25T05:15:55.580Z",
+            "modified": "2024-06-27T06:00:59.599Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"releaseYear\":2020\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "e591f2aa-9caa-4fb8-85c3-c0e376d71038",
+            "colId": "07aea1b3-40d7-4899-a073-6d373b95eca2",
+            "containerId": "",
+            "name": "delete movie",
+            "url": "http://localhost:5000/api/movies/667a436f9aad1cca52e4168b",
+            "method": "DELETE",
+            "sortNum": 60000,
+            "created": "2024-06-25T05:18:27.898Z",
+            "modified": "2024-06-26T03:24:48.930Z",
+            "headers": []
+        },
+        {
+            "_id": "1ef8266e-b5a9-40ec-b315-04c0a54f51bb",
+            "colId": "07aea1b3-40d7-4899-a073-6d373b95eca2",
+            "containerId": "",
+            "name": "toggle watched",
+            "url": "http://localhost:5000/api/movies/667a48dfa761a00e09296bb0/watched",
+            "method": "PATCH",
+            "sortNum": 70000,
+            "created": "2024-06-25T05:23:36.904Z",
+            "modified": "2024-06-25T05:25:57.049Z",
+            "headers": []
+        },
+        {
+            "_id": "63f60e4b-54e4-46c7-9f93-bac90b5185c9",
+            "colId": "07aea1b3-40d7-4899-a073-6d373b95eca2",
+            "containerId": "",
+            "name": "movie rating",
+            "url": "http://localhost:5000/api/movies/667a48dfa761a00e09296bb0/rate",
+            "method": "PATCH",
+            "sortNum": 80000,
+            "created": "2024-06-25T05:28:06.385Z",
+            "modified": "2024-06-25T05:31:39.267Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"rating\":4,\n  \"review\":\"Good movie, you should not watch.\"\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "zhNmtP4PeX8SpkthGgHLIruroWLziqmlNzAZaHz7tx4vCppgr8lQ0EkhRl32sJL-RrhBI44VEG025kXiXM4uaw"
+}
