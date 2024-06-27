@@ -69,21 +69,21 @@ cd movie-watchlist
 **2.Install Dependencies:** change directory to the respective section and use the below command.
 
 ```bash
-   npm install
-
+ npm install
 ```
 
-- Note: if you face error while installing in front end use below command
+**Note:** if you face error while installing in front end use below command
 
-````bash
-   npm install --legacy-peer-deps
+```bash
+    npm install --legacy-peer-deps
+```
 
 **3.Set Up Environment Variables:** add in .env file. (backend > .env )
 
 ```bash
 MONGODB_URI=mongodb+srv://<name>:<password>@cluster0.lsxrsze.mongodb.net/movie-watchlist
 PORT=5000
-````
+```
 
 **4.Run the Application:** change directory to the respective section and use the below command in different terminals.
 
