@@ -115,4 +115,4 @@ npm run dev
 
 ## End points:
    * These are the end point collection with request methods to test the backend. (You can use Thunder client in vs coode or Postman API )
-   [Collection](./thunder-collection_movie-watchlist.json)
+   [API end point collection](./thunder-collection_movie-watchlist.json)
