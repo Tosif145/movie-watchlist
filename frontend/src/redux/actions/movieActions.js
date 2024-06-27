@@ -15,8 +15,8 @@ import {
   CLEAR_ERRORS,
 } from '../constants/movieConstants';
 
-// const BASE_URL = 'http://localhost:5000/api/movies';
-const BASE_URL = 'https://movie-watchlist-backend.vercel.app/api/movies';  // Hosted backend url
+const BASE_URL = 'http://localhost:5000/api/movies';
+// const BASE_URL = 'https://movie-watchlist-backend.vercel.app/api/movies';  // Hosted backend url
 
 
 

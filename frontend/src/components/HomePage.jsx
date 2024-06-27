@@ -10,7 +10,6 @@ import Card from "./Card";
 import "./css/Card.css";
 import "./css/HomePage.css";
 
-
 const HomePage = () => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
@@ -63,12 +62,15 @@ const HomePage = () => {
         </div>
       ) : error ? (
         <div className="error">Something Went Wrong!!</div>
+      ) : movies.length === 0 ? (
+        <div className="error"><p>No movies in the list! Add movies to the watch list.</p></div>
+        
       ) : (
         <div className="main-container">
           <ul>
             {movies.map((movie) => (
               <li key={movie._id} className="list-item">
-                <div className="movie-card ">
+                <div className="movie-card">
                   <Card movie={movie} />
                   <label className="item-label">
                     <span>Watched: </span>
@@ -111,3 +113,5 @@ const HomePage = () => {
 };
 
 export default HomePage;
+
+
